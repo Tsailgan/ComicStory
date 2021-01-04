@@ -1,0 +1,342 @@
+.content_area{
+    position: absolute;
+    width: 1280px;
+    height: 610px;
+    background-image: url(image/cat_page.png);
+    background-size: cover;
+    top:0;
+    left: 0;
+    cursor: url('./image/cursor.ico'),default;
+    font-size: 5px;
+}
+
+.cat_page_1{
+     position: absolute;
+     height: 158px;
+     left:302px;
+     top:60px;
+}
+.cat_page_2{
+  position: absolute;
+  height: 144px;
+  left:248px;
+  top:253px;
+}
+.cat_page_3{
+  position: absolute;
+  height: 147px;
+  left:436px;
+  top:231px;
+}
+.cat_page_4{
+  position: absolute;
+  height: 199px;
+  left:314px;
+  top:386px;
+}
+.cat_page_5{
+  position: absolute;
+  height: 165px;
+  left:790px;
+  top:29px;
+}
+.cat_page_6{
+  position: absolute;
+  height: 150px;
+  left:664px;
+  top:181px;
+}
+.cat_page_7{
+  position: absolute;
+  height: 230px;
+  left:688px;
+  top:379px;
+}
+
+.eye1{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 99;
+  }
+
+.eye1::after {
+    background: #F6ECE6;
+    border-radius: 50%;
+    content: ' ';
+    position: absolute;
+    right: 3px;
+    width: 21px;
+    height: 21px;
+  }
+  .eye2{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 99;
+  }
+
+.eye2::after {
+    background: #F6ECE6;
+    border-radius: 50%;
+    content: ' ';
+    position: absolute;
+    right: 3px;
+    width: 13px;
+    height: 13px;
+  }
+  .eye3{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 99;
+  }
+
+.eye3::after {
+    background: #F6ECE6;
+    border-radius: 50%;
+    content: ' ';
+    position: absolute;
+    right: 3px;
+    width: 13px;
+    height: 13px;
+  }
+  .eye4{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 99;
+  }
+
+.eye4::after {
+    background: #F6ECE6;
+    border-radius: 50%;
+    content: ' ';
+    position: absolute;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+  }
+  .eye5{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 99;
+  }
+
+.eye5::after {
+    background: #F6ECE6;
+    border-radius: 50%;
+    content: ' ';
+    position: absolute;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+  }
+  .eye6{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 99;
+  }
+
+.eye6::after {
+    background: #F6ECE6;
+    border-radius: 50%;
+    content: ' ';
+    position: absolute;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+  }
+  .eye7{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    z-index: 99;
+  }
+
+.eye7::after {
+    background: #F6ECE6;
+    border-radius: 50%;
+    content: ' ';
+    position: absolute;
+    right: 3px;
+    width: 25px;
+    height: 25px;
+  }
+  
+#cartoon1_screen1{
+  position: absolute;
+  top: 53px;
+  left:283px;
+  height: 141px;
+  display: none;
+}
+#cartoon2_screen1{
+  position: absolute;
+  top: 237px;
+  left:263px;
+  height: 141px;
+  display: none;
+}
+#cartoon3_screen1{
+  position: absolute;
+  top: 233px;
+  left:333px;
+  height: 112px;
+  display: none;
+}
+#cartoon4_screen1{
+  position: absolute;
+  top: 387px;
+  left:276px;
+  height: 194px;
+  display: none;
+}
+
+#cartoon5_screen1{
+  position: absolute;
+  top: 55px;
+  left:726px;
+  height: 113px;
+  display: none;
+}
+
+#cartoon6_screen1{
+  position: absolute;
+  top: 166px;
+  left:702px;
+  height: 153px;
+  display: none;
+}
+
+#cartoon7_screen1{
+  position: absolute;
+  top: 349px;
+  left:704px;
+  height: 222px;
+  display: none;
+}
+
+#text1{
+  z-index: 99;
+  position: absolute;
+  animation: text1 2s;
+  -moz-animation: text1 2s;	/* Firefox */
+  -webkit-animation: text1 2s;	/* Safari 和 Chrome */
+  -o-animation: text1 2s;	/* Opera */
+  left: 257px;
+  top: 44px;
+  border:1.5px solid#c1ab8d;
+  display: none;
+  color: #3e3a39;
+  background-color: white;
+}
+
+@-webkit-keyframes text1 /* Safari 和 Chrome */
+{
+0%   {left:370px; top:115px;}
+100% {left:257px; top:44px;}
+}
+#text2{
+  z-index: 99;
+  position: absolute;
+  animation: text2 2s;
+  -moz-animation: text2 2s;	/* Firefox */
+  -webkit-animation: text2 2s;	/* Safari 和 Chrome */
+  -o-animation: text2 2s;	/* Opera */
+  left: 257px;
+  top: 218px;
+  border:1.5px solid#c1ab8d;
+  display: none;
+  color: #3e3a39;
+  background-color: white;
+}
+@-webkit-keyframes text2 /* Safari 和 Chrome */
+{
+0%   {left:301px; top:279px;}
+100% {left:257px; top:218px;}
+}
+
+#text4{
+  z-index: 99;
+  position: absolute;
+  animation: text4 2s;
+  -moz-animation: text4 2s;	/* Firefox */
+  -webkit-animation: text4 2s;	/* Safari 和 Chrome */
+  -o-animation: text4 2s;	/* Opera */
+  left: 257px;
+  top: 382px;
+  border:1.5px solid#c1ab8d;
+  display: none;
+  color: #3e3a39;
+  background-color: white;
+}
+@-webkit-keyframes text4 /* Safari 和 Chrome */
+{
+0%   {left:377px; top:466px;}
+100% {left:257px; top:382px;}
+}
+
+
+#text5{
+  z-index: 99;
+  position: absolute;
+  animation: text5 2s;
+  -moz-animation: text5 2s;	/* Firefox */
+  -webkit-animation: text5 2s;	/* Safari 和 Chrome */
+  -o-animation: text5 2s;	/* Opera */
+  left: 901px;
+  top: 45px;
+  border:1.5px solid#c1ab8d;
+  display: none;
+  color: #3e3a39;
+  background-color: white;
+}
+@-webkit-keyframes text5 /* Safari 和 Chrome */
+{
+0%   {left:809px; top:79px;}
+100% {left:901px; top:45px;}
+}
+
+#text7{
+  z-index: 99;
+  position: absolute;
+  animation: text7 2s;
+  -moz-animation: text7 2s;	/* Firefox */
+  -webkit-animation: text7 2s;	/* Safari 和 Chrome */
+  -o-animation: text7 2s;	/* Opera */
+  left: 892px;
+  top: 338px;
+  border:1.5px solid#c1ab8d;
+  display: none;
+  color: #3e3a39;
+  background-color: white;
+}
+@-webkit-keyframes text7 /* Safari 和 Chrome */
+{
+0%   {left:792px; top:432px;}
+100% {left:892px; top:338px;}
+}

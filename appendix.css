@@ -1,0 +1,40 @@
+.content_area{
+    position: absolute;
+    width: 1280px;
+    height: 600px;
+    background-color: white;
+    background-size: cover;
+    top:0;
+    left: 0;
+}
+
+#knowledge1{
+    transition: opacity 3s ease;
+    opacity: 0;
+}
+#knowledge2{
+    transition: opacity 3s ease 3s;
+    opacity: 0;
+}
+#knowledge3{
+    transition: opacity 3s ease 6s;
+    opacity: 0;
+}
+#knowledge4{
+    transition: opacity 3s ease 9s;
+    opacity: 0;
+}
+#knowledge5{
+    transition: opacity 3s ease 12s;
+    opacity: 0;
+}
+#knowledge6{
+    transition: opacity 3s ease 15s;
+    opacity: 0;
+}
+
+@keyframes shakeX {
+    from,to  {
+      transform: translate3d(0.5rem, 0, 0);
+        }
+}
