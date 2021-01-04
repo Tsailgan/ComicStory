@@ -361,4 +361,18 @@
   100% {left:903px; top:434px;}
   }
   
+  #button{
+    position: absolute;
+    top:540px;
+    right: 59px;
+  }
+  
+  #next_page{
+    font-size: 21px;
+    color: #C7766C;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  #next_page:hover{
+    font-size: 28px;
+  }
 

@@ -194,3 +194,29 @@ $(".content_area").mousemove(function(event) {
     })
   }, 2000);
   }
+  
+  !function(){
+    var myHeight=window.innerHeight;
+    var myWidth=window.innerWidth;
+    var content_area = $(".content_area");
+    if (myHeight>610) {
+      content_area.css({
+        'top':(myHeight-610)/2,
+      });
+    }
+    else {
+      content_area.css({
+      'top':'0'
+    });
+    }
+    if(myWidth>1280){
+      content_area.css({
+        'left':(myWidth-1280)/2
+      });
+    }
+    else {
+      content_area.css({
+      'left':'0'
+    });
+    }
+  }();  

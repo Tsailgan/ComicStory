@@ -4,8 +4,8 @@
     height: 610px;
     background-image: url(image/cat_page.png);
     background-size: cover;
-    top:0;
-    left: 0;
+    top:0px;
+    left:0px;
     cursor: url('./image/cursor.ico'),default;
     font-size: 5px;
 }
@@ -339,4 +339,20 @@
 {
 0%   {left:792px; top:432px;}
 100% {left:892px; top:338px;}
+}
+
+
+#button{
+  position: absolute;
+  top:540px;
+  right: 59px;
+}
+
+#next_page{
+  font-size: 21px;
+  color: #C7766C;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#next_page:hover{
+  font-size: 28px;
 }
