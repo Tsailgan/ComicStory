@@ -68,19 +68,9 @@
               'top':(myHeight-610)/2,
             });
           }
-          else {
-            content_area.css({
-            'top':'0'
-          });
-          }
           if(myWidth>1280){
             content_area.css({
               'left':(myWidth-1280)/2
             });
-          }
-          else {
-            content_area.css({
-            'left':'0'
-          });
           }
         }();  
