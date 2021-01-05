@@ -1,4 +1,5 @@
 .content_area{
+    position: absolute;
     width: 1280px;
     height: 610px;
     top: 0px;
@@ -18,7 +19,7 @@
 }
 .container{
     position: absolute;
-    top:314px;
+    top:306px;
     left: 421px;
     width: 405px;
     margin-top: 50px;

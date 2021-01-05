@@ -195,7 +195,7 @@ $(".content_area").mousemove(function(event) {
     var content_area = $(".content_area");
     if (myHeight>610) {
       content_area.css({
-        'top':(myHeight-610)/2,
+        'top':(myHeight-610)/2
       });
     }
     if(myWidth>1280){
