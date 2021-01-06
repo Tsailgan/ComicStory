@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<html lang="en">
+    <audio id="click_audio" src="./bgm/click.mp3" style="display:none"></audio>    
+    <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
         <title>cartoon</title>
         <link rel="stylesheet" href="loading.css">
         <link rel="stylesheet" href="csshake.css">
 	</head>
 	<body>
-        <div class="content_area">
+        <div id="content" class="content_area">
             <img id="loading_back" src="./image/loading_back.png">
             <img id="loading_cat" src="./image/loading_cat.gif">
             <div class="container">
@@ -20,5 +22,13 @@
         </div>
         <script src="jquery.min.js"></script>
         <script src="loading.js"></script>
+        <script>
+            var click_audio = document.getElementById('click_audio'),
+            content_area   = document.getElementById('content');
+            content_area.onclick = function() {
+            // 通过clone方法实现多个声音同时响起
+            click_audio.cloneNode().play();
+            };
+        </script>
     </body>
 </html>

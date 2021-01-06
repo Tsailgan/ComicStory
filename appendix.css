@@ -6,6 +6,8 @@
     background-size: cover;
     top:0;
     left: 0;
+    cursor: url('./image/cursor.ico'),default;
+    font-size: 12px;
 }
 
 #knowledge1{
@@ -38,3 +40,29 @@
       transform: translate3d(0.5rem, 0, 0);
         }
 }
+
+#button{
+    position: absolute;
+    top:520px;
+    right: 59px;
+    background-image:url(./image/next_back.png);
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+  }
+  #next_page{
+    margin-top: 25px;
+    margin-left: 12px;
+    font-size: 21px;
+    color: #C7766C;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  #button:hover{
+    width: 80px;
+    height: 80px;
+  }
+  #button:hover #next_page{
+    margin-top: 27px;
+    margin-left: 16px;
+    font-size: 24px;
+  }

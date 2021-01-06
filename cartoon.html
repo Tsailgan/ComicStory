@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+    <iframe allow="autoplay" src="./bgm/bgm.mp3" class="music" style="display: none;"></iframe>
+    <audio src="./bgm/bgm.mp3" autoplay="true" loop playcount="-1" controls="controls" style="height:0px"></audio>
+    <audio id="click_audio" src="./bgm/click.mp3" style="display:none"></audio>
     <head>
-        <title>cartoon</title>
+        <title>comics</title>
         <link rel="stylesheet" href="cartoon.css">
         <link rel="stylesheet" href="csshake.css">
         <link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.7.0/animate.min.css">
 	</head>
 	<body>
-        <div class="content_area animated bounceIn delay-0s">
+        <div id="content" class="content_area animated bounceIn delay-0.5s">
             <div id="text1">
                 猫咪是怎么走进我的生活的呢
             </div>
@@ -18,6 +21,7 @@
             </div>
             <div id="cartoon1">
                 <img id="cartoon1_screen1" src="./image/cat/cat_history.gif">
+                <img id="cartoon1_screen2" src="./image/cat/time_changed.gif">
             </div>
             <div id="text2">
                 养猫的人越来越多了
@@ -67,6 +71,7 @@
             </div>
             <div id="cartoon6">
                 <img id="cartoon6_screen1" src="./image/cat/cat_category.gif">
+                <img id="cartoon6_screen2" src="./image/cat/money.gif">
             </div>
             <div id="text7">
                 大家是怎么获得猫主子的
@@ -79,10 +84,18 @@
             <div id="cartoon7">
                 <img id="cartoon7_screen1" src="./image/cat/cat_ball.gif">
             </div>
-            <div id="button">
-                <div id="next_page" onclick="location='cartoon_human.html'">Next</div>
+            <div id="button" onclick="location='cartoon_human.html'">
+                <div id="next_page">Next</div>
             </div>
         <script src='jquery.min.js'></script>
         <script src="cartoon.js"></script>
+        <script>
+            var click_audio = document.getElementById('click_audio'),
+            content_area   = document.getElementById('content');
+            content_area.onclick = function() {
+            // 通过clone方法实现多个声音同时响起
+            click_audio.cloneNode().play();
+            };
+        </script>
     </body>
 </html>

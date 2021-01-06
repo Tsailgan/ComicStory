@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+    <audio id="click_audio" src="./bgm/click.mp3" style="display:none"></audio>
     <head>
-        <title>cartoon</title>
+        <title>comics</title>
         <link rel="stylesheet" href="cartoon_human.css">
         <link rel="stylesheet" href="csshake.css">
         <link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.7.0/animate.min.css">
 	</head>
 	<body>
-        <div class="content_area animated flipInY delay-0s">
+        <div id="content" class="content_area animated flipInY delay-0.5s">
             <div id="text1">
                 铲屎官是怎么获得我的
             </div>
@@ -20,7 +21,7 @@
                 <img id="cartoon1_screen1" src="./image/human/human_1.gif">
             </div>
             <div id="text2">
-                铲屎官的人数在上涨哦
+                我们的数量在上涨哦
             </div>
             <div id="cat2">
                 <img class="cat_page_2" src="./image/human_page_2.png">
@@ -59,6 +60,7 @@
             </div>
             <div id="cartoon5">
                 <img id="cartoon5_screen1" src="./image/human/human_5.gif">
+                <img id="cartoon5_screen2" src="./image/human/time_changed.gif">
             </div>
             <div id="text6">
                 我是怎么花铲屎官的钱的
@@ -70,6 +72,7 @@
             </div>
             <div id="cartoon6">
                 <img id="cartoon6_screen1" src="./image/human/human_6.gif">
+                <img id="cartoon6_screen2" src="./image/cat/money.gif">
             </div>
             <div id="text7">
                 看看我们的市场有多大
@@ -82,11 +85,19 @@
             <div id="cartoon7">
                 <img id="cartoon7_screen1" src="./image/human/human_7.gif">
             </div>
-            <div id="button">
-                <div id="next_page" onclick="location='appendix.html'">Next</div>
+            <div id="button" onclick="location='appendix.html'">
+                <div id="next_page">Next</div>
             </div>
         <script src="jquery.min.js"></script>
         <script src="cartoon_human.js"></script>
+        <script>
+            var click_audio = document.getElementById('click_audio'),
+            content_area   = document.getElementById('content');
+            content_area.onclick = function() {
+            // 通过clone方法实现多个声音同时响起
+            click_audio.cloneNode().play();
+            };
+        </script>
     </div>
 </body>
 </html>

@@ -93,6 +93,10 @@ $(".content_area").mousemove(function(event) {
       cartoon1_screen1.css({
       'display':'initial'
     })
+    var cartoon1_screen2 = $("#cartoon1_screen2");
+    cartoon1_screen2.css({
+      'display':'initial'
+    })
     }, 2000);
   }
 
@@ -170,6 +174,11 @@ $(".content_area").mousemove(function(event) {
     cartoon6_screen1.css({
       'display':'initial'
     })
+    var cartoon6_screen2 = $("#cartoon6_screen2");
+    cartoon6_screen2.css({
+      'display':'initial'
+    })
+
   }
   var action7 = document.getElementById("cat7");
   action7.onclick= function(){
@@ -204,3 +213,4 @@ $(".content_area").mousemove(function(event) {
       });
     }
   }();  
+

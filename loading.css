@@ -4,6 +4,8 @@
     height: 610px;
     top: 0px;
     left: 0px;
+    cursor: url('./image/cursor.ico'),default;
+    font-size: 12px;
 }
 
 #loading_back{
