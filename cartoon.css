@@ -62,7 +62,6 @@
     height: 30px;
     z-index: 99;
   }
-
 .eye1::after {
     background: #F6ECE6;
     border-radius: 50%;
@@ -72,6 +71,7 @@
     width: 21px;
     height: 21px;
   }
+
   .eye2{
     background: #fff;
     border-radius: 50%;

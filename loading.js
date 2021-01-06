@@ -15,7 +15,7 @@ var timer = setInterval(function(){
         clearInterval(timer);
         window.location.href="cartoon.html"
     }
-    },75)
+    },70)
 
 !function(){
     var myHeight=window.innerHeight;

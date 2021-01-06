@@ -200,6 +200,10 @@ $(".content_area").mousemove(function(event) {
     cartoon7_screen1.css({
       'display':'initial'
     })
+    var cartoon7_screen2 = $("#cartoon7_screen2");
+    cartoon7_screen2.css({
+      'display':'initial'
+    })
   }, 2000);
   }
 

@@ -189,14 +189,14 @@
   
   #cartoon1_screen1{
     position: absolute;
-    top: 61px;
+    top: 56px;
     left:307px;
     height: 175px;
     display: none;
   }
   #cartoon2_screen1{
     position: absolute;
-    top: 225px;
+    top: 254px;
     left:268px;
     height: 141px;
     display: none;
@@ -254,6 +254,14 @@
     height: 161px;
     display: none;
   }
+  #cartoon7_screen2{
+    position: absolute;
+    top: 439px;
+    left:670px;
+    height: 161px;
+    display: none;
+  }
+
 
   #text1{
     z-index: 99;

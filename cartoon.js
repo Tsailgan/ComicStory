@@ -12,6 +12,8 @@ $(".content_area").mousemove(function(event) {
       '-ms-transform': 'rotate(' + rot1 + 'deg)',
       'transform': 'rotate(' + rot1 + 'deg)'
     });
+
+    
     var eye2 = $(".eye2");
     var x2 = (eye2.offset().left) + (eye2.width() / 2);
     var y2 = (eye2.offset().top) + (eye2.height() / 2);
