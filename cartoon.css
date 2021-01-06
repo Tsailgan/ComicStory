@@ -212,7 +212,7 @@
 }
 #cartoon3_screen1{
   position: absolute;
-  top: 233px;
+  top: 244px;
   left:333px;
   height: 112px;
   display: none;
@@ -360,7 +360,7 @@
   -moz-animation: text5 2s;	/* Firefox */
   -webkit-animation: text5 2s;	/* Safari 和 Chrome */
   -o-animation: text5 2s;	/* Opera */
-  left: 901px;
+  left: 926px;
   top: 45px;
   border:1.5px solid#c1ab8d;
   display: none;
@@ -370,7 +370,7 @@
 @-webkit-keyframes text5 /* Safari 和 Chrome */
 {
 0%   {left:809px; top:79px;}
-100% {left:901px; top:45px;}
+100% {left:926px; top:45px;}
 }
 
 #text6{
@@ -422,6 +422,7 @@
   background-size: 100% 100%;
   width: 70px;
   height: 70px;
+  display: none;
 }
 #next_page{
   margin-top: 25px;

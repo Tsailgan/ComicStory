@@ -1,3 +1,5 @@
+var count =0;
+
 $(".content_area").mousemove(function(event) {
     // document.getElementById("back_audio").src="./bgm/bgm.mp3";
 
@@ -84,6 +86,13 @@ $(".content_area").mousemove(function(event) {
 
   var action1 = document.getElementById("cat1");
   action1.onclick= function(){
+    count++;
+    if(count==7){
+      var button = $("#button");
+      button.css({
+        'display':'initial'
+      })
+    }
     var cat1 = $("#cat1");
     cat1.css({
       'display' : 'none'
@@ -106,6 +115,13 @@ $(".content_area").mousemove(function(event) {
 
   var action2 = document.getElementById("cat2");
   action2.onclick= function(){
+    count++;
+    if(count==7){
+      var button = $("#button");
+      button.css({
+        'display':'initial'
+      })
+    }
     var cat2 = $("#cat2");
     cat2.css({
       'display' : 'none'
@@ -124,6 +140,13 @@ $(".content_area").mousemove(function(event) {
 
   var action3 = document.getElementById("cat3");
   action3.onclick= function(){
+    count++;
+    if(count==7){
+      var button = $("#button");
+      button.css({
+        'display':'initial'
+      })
+    }
     var cat3 = $("#cat3");
     cat3.css({
       'display' : 'none'
@@ -142,6 +165,13 @@ $(".content_area").mousemove(function(event) {
 
   var action4 = document.getElementById("cat4");
   action4.onclick= function(){
+    count++;
+    if(count==7){
+      var button = $("#button");
+      button.css({
+        'display':'initial'
+      })
+    }
     var cat4 = $("#cat4");
     cat4.css({
       'display' : 'none'
@@ -160,6 +190,13 @@ $(".content_area").mousemove(function(event) {
 
   var action5 = document.getElementById("cat5");
   action5.onclick= function(){
+    count++;
+    if(count==7){
+      var button = $("#button");
+      button.css({
+        'display':'initial'
+      })
+    }
     var cat5 = $("#cat5");
     cat5.css({
       'display' : 'none'
@@ -182,6 +219,13 @@ $(".content_area").mousemove(function(event) {
 
   var action6 = document.getElementById("cat6");
   action6.onclick= function(){
+    count++;
+    if(count==7){
+      var button = $("#button");
+      button.css({
+        'display':'initial'
+      })
+    }
     var cat6 = $("#cat6");
     cat6.css({
       'display' : 'none'
@@ -203,6 +247,13 @@ $(".content_area").mousemove(function(event) {
   }
   var action7 = document.getElementById("cat7");
   action7.onclick= function(){
+    count++;
+    if(count==7){
+      var button = $("#button");
+      button.css({
+        'display':'initial'
+      })
+    }
     var cat7 = $("#cat7");
     cat7.css({
       'display' : 'none'

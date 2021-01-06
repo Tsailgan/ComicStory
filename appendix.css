@@ -10,6 +10,13 @@
     font-size: 12px;
 }
 
+#title{
+    position: absolute;
+    height: 100px;
+    top: 16px;
+    left: 700px;
+}
+
 #knowledge1{
     transition: opacity 3s ease;
     opacity: 0;

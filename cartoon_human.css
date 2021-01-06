@@ -203,7 +203,7 @@
   }
   #cartoon3_screen1{
     position: absolute;
-    top: 261px;
+    top: 270px;
     left:343px;
     height: 112px;
     display: none;
@@ -412,6 +412,7 @@
     background-size: 100% 100%;
     width: 70px;
     height: 70px;
+    display: none;
   }
   #next_page{
     margin-top: 25px;
