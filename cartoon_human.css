@@ -189,16 +189,16 @@
   
   #cartoon1_screen1{
     position: absolute;
-    top: 56px;
+    top: 52px;
     left:307px;
     height: 175px;
     display: none;
   }
   #cartoon2_screen1{
     position: absolute;
-    top: 254px;
-    left:268px;
-    height: 141px;
+    top: 244px;
+    left:270px;
+    height: 146px;
     display: none;
   }
   #cartoon3_screen1{
@@ -249,16 +249,16 @@
   
   #cartoon7_screen1{
     position: absolute;
-    top: 439px;
-    left:612px;
-    height: 161px;
+    top: 452px;
+    left:658px;
+    height: 138px;
     display: none;
   }
   #cartoon7_screen2{
     position: absolute;
-    top: 439px;
-    left:670px;
-    height: 161px;
+    top: 435px;
+    left:683px;
+    height: 133px;
     display: none;
   }
 
@@ -301,6 +301,26 @@
   {
   0%   {left:301px; top:299px;}
   100% {left:257px; top:248px;}
+  }
+
+  #text3{
+    z-index: 99;
+    position: absolute;
+    animation: text3 2s;
+    -moz-animation: text3 2s;	/* Firefox */
+    -webkit-animation: text3 2s;	/* Safari 和 Chrome */
+    -o-animation: text3 2s;	/* Opera */
+    left: 503px;
+    top: 248px;
+    border:1.5px solid#c1ab8d;
+    display: none;
+    color: #3e3a39;
+    background-color: white;
+  }
+  @-webkit-keyframes text3 /* Safari 和 Chrome */
+  {
+  0%   {left:485px; top:299px;}
+  100% {left:503px; top:248px;}
   }
   
   #text4{

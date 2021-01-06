@@ -13,7 +13,7 @@ $(".content_area").mousemove(function(event) {
       'transform': 'rotate(' + rot1 + 'deg)'
     });
 
-    
+
     var eye2 = $(".eye2");
     var x2 = (eye2.offset().left) + (eye2.width() / 2);
     var y2 = (eye2.offset().top) + (eye2.height() / 2);
@@ -121,17 +121,25 @@ $(".content_area").mousemove(function(event) {
     })
     }, 2000);
   }
+
   var action3 = document.getElementById("cat3");
   action3.onclick= function(){
     var cat3 = $("#cat3");
     cat3.css({
       'display' : 'none'
     })
+    var text3 = $("#text3");
+    text3.css({
+      'display':'initial'
+    })
+    setTimeout(() => {
     var cartoon3_screen1 = $("#cartoon3_screen1");
     cartoon3_screen1.css({
       'display':'initial'
     })
+  }, 2000);
   }
+
   var action4 = document.getElementById("cat4");
   action4.onclick= function(){
     var cat4 = $("#cat4");
@@ -165,6 +173,10 @@ $(".content_area").mousemove(function(event) {
     cartoon5_screen1.css({
       'display':'initial'
     })
+    var cartoon5_screen2 = $("#cartoon5_screen2");
+    cartoon5_screen2.css({
+      'display':'initial'
+    })
   }, 2000);
   }
 
@@ -174,6 +186,11 @@ $(".content_area").mousemove(function(event) {
     cat6.css({
       'display' : 'none'
     })
+    var text6 = $("#text6");
+    text6.css({
+      'display':'initial'
+    })
+    setTimeout(() => {
     var cartoon6_screen1 = $("#cartoon6_screen1");
     cartoon6_screen1.css({
       'display':'initial'
@@ -182,7 +199,7 @@ $(".content_area").mousemove(function(event) {
     cartoon6_screen2.css({
       'display':'initial'
     })
-
+  }, 2000);
   }
   var action7 = document.getElementById("cat7");
   action7.onclick= function(){
@@ -197,6 +214,10 @@ $(".content_area").mousemove(function(event) {
     setTimeout(() => {
     var cartoon7_screen1 = $("#cartoon7_screen1");
     cartoon7_screen1.css({
+      'display':'initial'
+    })
+    var cartoon7_screen2 = $("#cartoon7_screen2");
+    cartoon7_screen2.css({
       'display':'initial'
     })
   }, 2000);

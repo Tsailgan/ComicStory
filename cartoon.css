@@ -189,9 +189,10 @@
   
 #cartoon1_screen1{
   position: absolute;
-  top: 53px;
-  left:283px;
+  top: 62px;
+  left:277px;
   height: 141px;
+  width: 314px;
   display: none;
 }
 #cartoon1_screen2{
@@ -204,9 +205,9 @@
 
 #cartoon2_screen1{
   position: absolute;
-  top: 224px;
-  left:268px;
-  height: 141px;
+  top: 227px;
+  left:269px;
+  height: 133px;
   display: none;
 }
 #cartoon3_screen1{
@@ -227,16 +228,23 @@
 #cartoon5_screen1{
   position: absolute;
   top: 55px;
-  left:726px;
-  height: 113px;
+  left:693px;
+  height: 128px;
+  display: none;
+}
+#cartoon5_screen2{
+  position: absolute;
+  top: 30px;
+  left:608px;
+  height: 100px;
   display: none;
 }
 
 #cartoon6_screen1{
   position: absolute;
-  top: 166px;
+  top: 176px;
   left:702px;
-  height: 153px;
+  height: 144px;
   display: none;
 }
 #cartoon6_screen2{
@@ -250,11 +258,19 @@
 
 #cartoon7_screen1{
   position: absolute;
-  top: 349px;
-  left:704px;
+  top: 325px;
+  left:685px;
   height: 222px;
   display: none;
 }
+#cartoon7_screen2{
+  position: absolute;
+  top: 462px;
+  left:836px;
+  height: 116px;
+  display: none;
+}
+
 
 #text1{
   z-index: 99;
@@ -296,6 +312,26 @@
 100% {left:257px; top:218px;}
 }
 
+#text3{
+  z-index: 99;
+  position: absolute;
+  animation: text3 2s;
+  -moz-animation: text3 2s;	/* Firefox */
+  -webkit-animation: text3 2s;	/* Safari 和 Chrome */
+  -o-animation: text3 2s;	/* Opera */
+  left: 505px;
+  top: 218px;
+  border:1.5px solid#c1ab8d;
+  display: none;
+  color: #3e3a39;
+  background-color: white;
+}
+@-webkit-keyframes text3 /* Safari 和 Chrome */
+{
+0%   {left:471px; top:279px;}
+100% {left:505px; top:218px;}
+}
+
 #text4{
   z-index: 99;
   position: absolute;
@@ -335,6 +371,26 @@
 {
 0%   {left:809px; top:79px;}
 100% {left:901px; top:45px;}
+}
+
+#text6{
+  z-index: 99;
+  position: absolute;
+  animation: text6 2s;
+  -moz-animation: text6 2s;	/* Firefox */
+  -webkit-animation: text6 2s;	/* Safari 和 Chrome */
+  -o-animation: text6 2s;	/* Opera */
+  left: 889px;
+  top: 187px;
+  border:1.5px solid#c1ab8d;
+  display: none;
+  color: #3e3a39;
+  background-color: white;
+}
+@-webkit-keyframes text6 /* Safari 和 Chrome */
+{
+0%   {left:809px; top:240px;}
+100% {left:889px; top:187px;}
 }
 
 #text7{

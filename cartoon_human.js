@@ -119,10 +119,16 @@ $(".content_area").mousemove(function(event) {
     cat3.css({
       'display' : 'none'
     })
+    var text3 = $("#text3");
+    text3.css({
+      'display':'initial'
+    })
+    setTimeout(() => {
     var cartoon3_screen1 = $("#cartoon3_screen1");
     cartoon3_screen1.css({
       'display':'initial'
     })
+  }, 2000);
   }
   var action4 = document.getElementById("cat4");
   action4.onclick= function(){
