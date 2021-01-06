@@ -234,9 +234,9 @@
 }
 #cartoon5_screen2{
   position: absolute;
-  top: 30px;
-  left:608px;
-  height: 100px;
+  top: -16px;
+  left:557px;
+  height: 153px;
   display: none;
 }
 
@@ -249,8 +249,8 @@
 }
 #cartoon6_screen2{
   position: absolute;
-  top: 115px;
-  left:590px;
+  top: 90px;
+  left:570px;
   height: 153px;
   display: none;
 }
@@ -266,8 +266,8 @@
 #cartoon7_screen2{
   position: absolute;
   top: 462px;
-  left:836px;
-  height: 116px;
+  left:821px;
+  height: 146px;
   display: none;
 }
 

@@ -22,6 +22,7 @@
              img.style.opacity=1;
           }
         }
+        
         function imgLoaded2(){
             var img = document.getElementById("knowledge2");
         img.setAttribute("src",this.src);
