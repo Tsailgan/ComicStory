@@ -1,4 +1,6 @@
 $(".content_area").mousemove(function(event) {
+    // document.getElementById("back_audio").src="./bgm/bgm.mp3";
+
     var eye1 = $(".eye1");
     var x1 = (eye1.offset().left) + (eye1.width() / 2);
     var y1 = (eye1.offset().top) + (eye1.height() / 2);

@@ -189,15 +189,15 @@
   
   #cartoon1_screen1{
     position: absolute;
-    top: 51px;
+    top: 61px;
     left:307px;
     height: 175px;
     display: none;
   }
   #cartoon2_screen1{
     position: absolute;
-    top: 254px;
-    left:277px;
+    top: 225px;
+    left:268px;
     height: 141px;
     display: none;
   }
