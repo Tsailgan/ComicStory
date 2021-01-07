@@ -2,7 +2,9 @@
 <html lang="en">
     <!-- <iframe allow="autoplay" src="./bgm/bgm.mp3" style="display: none;"></iframe> -->
     <!-- <audio id="back_audio" src="" autoplay="true" loop playcount="-1" controls="controls" style="height:0px"></audio> -->
+    
     <audio id="click_audio" src="./bgm/click.mp3" style="display:none"></audio>
+    
     <head>
         <title>comics</title>
         <link rel="stylesheet" href="cartoon.css">
@@ -101,7 +103,6 @@
             var click_audio = document.getElementById('click_audio'),
             content_area   = document.getElementById('content');
             content_area.onclick = function() {
-            // 通过clone方法实现多个声音同时响起
             click_audio.cloneNode().play();
             };
         </script>

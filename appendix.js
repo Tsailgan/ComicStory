@@ -8,18 +8,18 @@
         }();
   
         function loadImage(url, callback) {
-         var img = new Image();
-           img.src = url;
-         img.onload = function(){ //图片下载完毕时异步调用callback函数。
-             callback.call(img); // 将callback函数this指针切换为img。
-         };
+          var img = new Image();
+          img.src = url;
+          img.onload = function(){ //图片下载完毕时异步调用callback函数。
+            callback.call(img); // 将callback函数this指针切换为img。
+          };
         }
-
-       function imgLoaded1(){
-            var img = document.getElementById("knowledge1");
-        img.setAttribute("src",this.src);
-         if(img.style.opacity!=undefined){
-             img.style.opacity=1;
+        
+        function imgLoaded1(){
+          var img = document.getElementById("knowledge1");
+          img.setAttribute("src",this.src);
+          if(img.style.opacity!=undefined){
+            img.style.opacity=1;
           }
         }
         
