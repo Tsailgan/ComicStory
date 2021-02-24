@@ -1,5 +1,6 @@
 # ComicStory
 This is our comic story.
+
 Designer: Ziyan Liu, Yu Chen.
 Coder: Ligan Cai.
 
